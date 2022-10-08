@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1920px;
+    font-size: 10px;
+}
+
+form {
+    font-size: 2rem;
+    width: 30%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+form article {
+    margin: 2rem 0;
+}
+
+form article div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(221, 218, 218);
+    padding: 3rem;
+    border-radius: 5px;
+    margin: 0 3rem;
+    color: rgb(71, 68, 68);
+
+}
+
+.head {
+    background-color: rgb(68, 53, 234);
+    padding: 2rem;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form article div input {
+    border-radius: 2px;
+    padding: 6px;
+    border-style: none;
+    margin-bottom: 1rem;
+}
+
+form section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+
+form section button {
+    padding: 0.5rem 2rem;
+    background-color: rgb(68, 53, 234);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+}
+
+form section label {
+    font-size: 1.5rem;
+}
+
+.list_header {
+    font-size: 3rem;
+    color: rgb(52, 40, 180)
+}
+
+/* Listnumber Style */
+.list_header span {
+    background-color: rgb(68, 53, 234);
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 2px;
+    color: white;
+    font-size: 2.2rem;
+    margin-left: -1.5rem;
+    margin-right: 1.6rem;
+}
